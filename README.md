@@ -1,16 +1,59 @@
-# React + Vite
+# 🚀 CPU Scheduling Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web-based simulator that visualizes and analyzes classical CPU scheduling algorithms used in Operating Systems.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** (Add your Vercel link after deployment)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Interactive **Gantt Chart visualization**  
+✅ Supports major CPU scheduling algorithms:
 
-## Expanding the ESLint configuration
+- First Come First Serve (FCFS)
+- Shortest Job First (SJF)
+- Shortest Remaining Time First (SRTF)
+- Round Robin (RR)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Custom process input (Arrival Time, Burst Time)
+
+✅ Automatically calculates:
+
+- Waiting Time  
+- Turnaround Time  
+- Response Time  
+
+✅ Displays **average metrics**  
+
+✅ Intelligent **Algorithm Comparison Panel** to identify the most efficient scheduler  
+
+---
+
+## 🧠 Why This Project?
+
+CPU scheduling is a fundamental Operating Systems concept but difficult to visualize.
+
+This simulator transforms theoretical scheduling behavior into an interactive learning tool that helps users:
+
+- Understand preemption  
+- Observe scheduling tradeoffs  
+- Compare algorithm performance  
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript
+- HTML / CSS
+- Vercel (Deployment)
+
+---
+
+## ⚙️ Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/cpu-scheduling-simulator.git
